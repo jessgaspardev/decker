@@ -8,7 +8,7 @@ This base template comes already set up with:
 
 - Content collections for Projects and Blog
 - Components for elements such as Text, Heading, Link, etc
-- Global components such as Header, Footer, and Navigation
+- Global components such as Head and Footer
 - Pages created for Home, About, Contact
 - Tailwind theme setup
 - Fonts API
