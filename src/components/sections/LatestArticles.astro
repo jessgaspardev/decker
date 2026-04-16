@@ -1,0 +1,26 @@
+---
+// components
+import Section from "../elements/Section.astro";
+import ArticleCard from "../elements/ArticleCard.astro";
+
+// content collection
+import { getCollection } from "astro:content";
+const blog = await getCollection("blog");
+const recentArticles = blog
+  .sort((a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime())
+  .slice(0, 3);
+---
+
+<Section 
+    aria-label="Latest Articles"
+    title="Latest Articles"
+    titleHeading="What I've recently wrote"
+>
+    {
+            recentArticles.map((article) => (
+                <ArticleCard
+                    title={article.data.title}
+                />
+            ))
+        }
+</Section>

@@ -16,9 +16,9 @@
     --color-base-500: oklch(0.550 0.176 132.8);
     --color-base-600: oklch(0.470 0.176 132.8);
     --color-base-700: oklch(0.400 0.176 132.8);
-    --color-base-800: oklch(0.330 0.176 132.8);
-    --color-base-900: oklch(0.216 0.070 132.8);
-    --color-base-950: #010700;
+    --color-base-800: oklch(0.2173 0.0639 135.39);
+    --color-base-900: oklch(0.16 0.0509 139.49);
+    --color-base-950: oklch(0.1135 0.0352 138.18);
     
     /* TEXT SIZES */
     --text-216: 13.5rem;
@@ -32,6 +32,7 @@
     --text-24: 1.5rem;
     --text-20: 1.25rem;
     --text-16: 1rem;
+    --text-14: 0.875rem;
     --text-12: 0.75rem;
 
      /* SPACING */
