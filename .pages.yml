@@ -11,8 +11,6 @@ content:
     fields:
       - { name: id, label: ID, type: number }
       - { name: name, label: Name, type: string, maxlength: 50 }
-      - { name: slug, label: Slug, type: string }
-      - { name: client, label: Client, type: string, maxlength: 50 }
       - name: category
         label: Category
         type: select
@@ -22,7 +20,7 @@ content:
             - Placeholder 1
             - Placeholder 2
       - { name: year, label: Year, type: string, maxlength: 4 }
-      - { name: featuredImage, label: Featured Image, type: image }
+      - { name: github, label: GitHub URL, type: string }
       - { name: liveSite, label: Live Site URL, type: string }
       - name: description
         label: Description
@@ -31,7 +29,6 @@ content:
           maxlength: 350
       - { name: isFeatured, label: Featured, type: boolean, default: false }
       - { name: isDraft, label: Draft, type: boolean, default: true }
-      - { name: body, label: Content, type: rich-text }
   - name: blog
     label: Blog
     type: collection
@@ -41,7 +38,6 @@ content:
       - { name: title, label: Title, type: string, maxlength: 50 }
       - { name: slug, label: Slug, type: string, maxlength: 50 } 
       - { name: publishedDate, label: Published Date, type: date }
-      - { name: image, label: Featured Image, type: image }
       - name: category
         label: Category
         type: select
