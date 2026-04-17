@@ -4,7 +4,7 @@ import type { HTMLAttributes } from "astro/types";
 // props
 interface Props extends HTMLAttributes<"a"> {
     href: string,
-    variant: "button" | "nav" | "inline",
+    variant: "nav" | "inline",
     text: string,
     newWindow?: boolean
 }
@@ -13,8 +13,7 @@ const { href, variant, text, newWindow = false, class: className, ...rest } = As
 
 // styling for each variant
 const variantStyle = {
-    button: "",
-    nav: "px-24 py-16 bg-base-900 hover:bg-base-950 border-t-2 hover:border-t-base-900 text-base-100 hover:text-base-400 border-t-base-900 border-t-base-900 font-pixels text-20/5",
+    nav: "px-24 py-16 bg-base-900 hover:bg-base-800 border-t-2 hover:border-t-base-900 text-base-100 hover:text-base-400 border-t-base-900 border-t-base-900 font-pixels text-20/5",
     inline: "font-pixels text-20 text-base-100 hover:text-base-300 font-semibold underline"
 }
 ---

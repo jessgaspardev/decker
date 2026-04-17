@@ -1,4 +1,5 @@
 ---
+const pathname = Astro.url.pathname;
 // components
 import Link from "../elements/Link.astro"
 
@@ -12,14 +13,18 @@ const nav = [
 ]
 ---
 
-<nav class="bg-base-900 flex flex-row flex-wrap">
+<nav class="bg-base-900 flex flex-row flex-wrap sticky top-0">
     {
-        nav.map((navLink) => (
+        nav.map((navLink) => {
+            const isActive = navLink.href === "/" ? pathname === "/" : pathname.startsWith(navLink.href);
+        return (
             <Link
                 variant={'nav'} 
                 href={navLink.href}
                 text={navLink.title}
+                aria-current={isActive ? "page" : undefined}
+                class={isActive ? "bg-base-950 border-t-2 border-base-900" : "" }
             />
-        ))
+        )})
     }
 </nav>

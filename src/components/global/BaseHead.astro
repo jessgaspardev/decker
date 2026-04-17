@@ -1,5 +1,9 @@
 ---
+// assets
 import { Font } from "astro:assets";
+
+// router
+import { ClientRouter } from "astro:transitions";
 
 // components
 import Seo, { type Props as SEOProps } from "../../components/global/Seo.astro";
@@ -36,11 +40,12 @@ const {
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <ClientRouter />
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 	<link rel="icon" href="/favicon.ico" />
 	<link rel="sitemap" href="/sitemap-index.xml" />
 	<Font cssVariable="--font-pixels" />
-    <Font cssVariable="--font-mono" />
+  <Font cssVariable="--font-mono" />
 	<meta name="generator" content={Astro.generator} />
 	<Seo
       title={title}
