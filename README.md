@@ -1,21 +1,35 @@
-#  Astro Portfolio Starter Kit
+# Decker - Astro & Tailwind Portfolio Template
 
-A base template for creating a portfolio website with Astro already set up with content collections for projects and blog, tailwind, components and PagesCMS integration.  
+A portfolio Astro & Tailwind theme built for developers and engineers. Decker was built with a retro tech design that combines the performance of Astro with the flexibility of Tailwind CSS to deliver a strong online presence.
 
-## 🚀 Project Structure
+- [**Live Demo**](https://decker-gmc.pages.dev) 
+- [**Documentation**](https://jessgaspar.dev/docs/getting-started) 
+- [**Changelog**](https://jessgaspar.dev/changelog/decker) 
+- [**Support**](https://jessgaspar.dev/legal/support) 
 
-This base template comes already set up with:
+## Pages Included
 
-- Content collections for Projects and Blog
-- Components for elements such as Text, Heading, Link, etc
-- Global components such as Head and Footer
-- Pages created for Home, About, Contact
-- Tailwind theme setup
-- Fonts API
-- SEO setup
-- PagesCMS integration
+- Home
+- Projects
+- About
+- Blog
+- Blog post
+- Contact
+- 404
 
-With this, all that's left to do is implement the design of the website with the desired styles, components and content!
+## Features
+
+Built with both developers and content editors in mind, Decker ships with a comprehensive set of features:
+
+- **Content Collections:** Structured data management for projects, blog posts, experience, education and skills — making updates quick, painless, and consistent across your entire site
+- **Reusable Components:** A library of modular components that keep your codebase clean, readable, and straightforward to customize for your portfolio
+- **Custom Tailwind Theme:** A bespoke design system built on Tailwind CSS with a clean, professional aesthetic that is easy to adapt to your portfolio's identity
+- **Pagination:** Keeps your projects and blog scalable and navigable as your portfolio grows over time
+- **Sitemap:** Auto-generated and search-engine ready, ensuring all your pages are indexed from day one without any manual configuration
+- **Optimized for SEO:** Built-in best practices including semantic markup, meta tags, and structured data to help your portfolio rank higher and reach more people
+- **Optimized for Accessibility:** Designed to be usable by everyone, with accessible patterns, and semantic HTML throughout
+- **Ongoing Updates:** Regular improvements and continued compatibility with the latest Astro releases so your theme stays modern and well-maintained
+- **Optional CMS with PagesCMS:** Manage your projects, blog posts, resume, and more site content through an intuitive visual interface — no code required
 
 ## 🧞 Astro Commands
 
@@ -30,6 +44,4 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

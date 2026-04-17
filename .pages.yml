@@ -36,6 +36,30 @@ content:
           maxlength: 350
       - { name: isFeatured, label: Featured, type: boolean, default: false }
       - { name: isDraft, label: Draft, type: boolean, default: true }
+  - name: education
+    label: Education
+    type: file
+    path: src/content/resume/education.yaml
+    format: yaml
+    list: true
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: timeline, label: Timeline, type: string }
+      - { name: school, label: School, type: string }
+  - name: experience
+    label: Experience
+    type: file
+    path: src/content/resume/experience.yaml
+    format: yaml
+    list: true
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: timeline, label: Timeline, type: string }
+      - name: description
+        label: Description
+        type: text
+        options:
+          - maxlength: 500
   - name: blog
     label: Blog
     type: collection
