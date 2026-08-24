@@ -3,9 +3,12 @@
 A portfolio Astro & Tailwind theme built for developers and engineers. Decker was built with a retro tech design that combines the performance of Astro with the flexibility of Tailwind CSS to deliver a strong online presence.
 
 - [**Live Demo**](https://decker-gmc.pages.dev) 
-- [**Documentation**](https://jessgaspar.dev/docs/getting-started) 
-- [**Changelog**](https://jessgaspar.dev/changelog/decker) 
-- [**Support**](https://jessgaspar.dev/legal/support) 
+
+If you have any questions, feel free to reach out:
+- [Twitter](https://x.com/_gasparjs)
+- [Bluesky](https://bsky.app/profile/gasparjs.bsky.social)
+- [jessgaspardev@gmail.com](mailto:jessgaspardev@gmail.com)
+
 
 ## Pages Included
 
